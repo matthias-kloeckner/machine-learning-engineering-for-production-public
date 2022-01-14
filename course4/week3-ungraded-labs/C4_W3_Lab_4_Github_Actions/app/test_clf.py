@@ -16,7 +16,7 @@ def test_accuracy():
     acc = clf.score(X_test, y_test)
 
     # Accuracy should be over 90%
-    print("DEBUG: acc is" + acc)
+    print("DEBUG: acc is" + str(acc))
     assert acc > 0.95
 
 
