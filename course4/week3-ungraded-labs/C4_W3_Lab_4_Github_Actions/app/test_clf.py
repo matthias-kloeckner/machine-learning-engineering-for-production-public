@@ -16,7 +16,8 @@ def test_accuracy():
     acc = clf.score(X_test, y_test)
 
     # Accuracy should be over 90%
-    assert acc > 0.9
+    print("DEBUG: acc is" + acc)
+    assert acc > 0.95
 
 
 def test_pipeline_and_scaler():
